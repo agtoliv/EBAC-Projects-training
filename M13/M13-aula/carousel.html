@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carousel</title>
+    <link rel="stylesheet" href="./lib-bootstrap/bootstrap.min.css">
+</head>
+<body>
+    <div id="carousel-exemplo" class="carousel slide carousel-fade" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div data-bs-interval="2000" class="carousel-item active">
+                <img class="d-block w-100" src="https://img.freepik.com/fotos-gratis/foto-de-grande-angular-de-uma-unica-arvore-crescendo-sob-um-ceu-nublado-durante-um-por-do-sol-cercado-por-grama_181624-22807.jpg?t=st=1725881060~exp=1725884660~hmac=631829483cbbb539cae484bbb03b7f27a408f982b532671324d0401a0382da17&w=996"/>
+                <div class="carousel-caption">
+                    <h2>Foto teste</h2>
+                </div>
+            </div>
+            <div data-bs-interval="2000" class="carousel-item">
+                <img class="d-block w-100" src="https://img.freepik.com/fotos-gratis/ponte-de-madeira-na-ilha-de-koh-nangyuan-em-surat-thani-tailandia_335224-1082.jpg?t=st=1725881067~exp=1725884667~hmac=7e8f60df9ea41dc65951a331f6b052b2ed0d758e8067783bd4a911d094e71e58&w=996"/>
+                <div class="carousel-caption">
+                    <h2>Foto teste</h2>
+                </div>
+            </div>
+            <div data-bs-interval="2000" class="carousel-item">
+                <img class="d-block w-100" src="https://img.freepik.com/fotos-gratis/paisagem-de-nevoeiro-matinal-e-montanhas-com-baloes-de-ar-quente-ao-nascer-do-sol_335224-794.jpg?t=st=1725881071~exp=1725884671~hmac=3d676a2726f3f120a6bda81e6152ff33cc622679a4f3b8cb6ece5915caf756a6&w=996"/>
+                <div class="carousel-caption">
+                    <h2>Foto teste</h2>
+                </div>
+            </div>
+        </div>
+        <button data-bs-target="#carousel-exemplo" data-bs-slide="prev" class="carousel-control-prev" type="button">
+            <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button data-bs-target="#carousel-exemplo" data-bs-slide="next" class="carousel-control-next" type="button">
+            <span class="carousel-control-next-icon"></span>
+        </button>
+        <div class="carousel-indicators">
+            <button class="active" type="button" data-bs-target="#carousel-exemplo" data-bs-slide-to="0"></button>
+            <button class="active" type="button" data-bs-target="#carousel-exemplo" data-bs-slide-to="1"></button>
+            <button class="active" type="button" data-bs-target="#carousel-exemplo" data-bs-slide-to="2"></button>
+        </div>
+    </div>
+
+    <script src="./lib-bootstrap/bootstrap.bundle.min.js"></script>
+</body>
+</html>
