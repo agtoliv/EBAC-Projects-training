@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista teleônica</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <header>
+        <h1>Lista teleônica</h1>
+    </header>
+    <form class="form-padrao" id="form-principal">
+        <div class="form1"><label>Digite o nome completo</label><input type="text" placeholder="Ex: João da Silva"></div>
+        <div class="form2"><label>Digite o telefone</label><input type="tel" placeholder="Ex: (DD) 999999999"></div>
+        <button id="btn" type="submit">+ Adicionar</button>
+    </form>
+    <table cellspacing="0">
+        <thead class="header-container">
+            <tr>
+                <th>Nome completo</th>
+                <th>Telefone</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>João da Silva</td>
+                <td>11 99999999</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td>Contatos</td> <!--qtd de contatos-->
+                <td>Numero</td>
+            </tr>
+        </tfoot>
+
+    </table>
+</body>
+</html>
