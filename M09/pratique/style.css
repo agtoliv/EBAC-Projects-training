@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+header{
+    background-color: rgb(64, 64, 145);
+    color: aliceblue;
+    padding: 16px 0px;
+    border-bottom: 8px solid rgb(75, 88, 124);
+    display: flex; /*precisa do display flex para aplicar justify content center */
+    justify-content: center;
+    text-transform: uppercase;
+    font-style: oblique;
+}
+
+form{
+    background-color: rgb(255, 255, 255) ;
+    padding: 24px 0px;
+    text-align: center;
+}
+
+form h2{
+    padding: 8px;
+}
+
+input, button{
+    padding: 8px;
+}
+
+button{
+    border: none;
+    font-weight: bold;
+    text-transform: lowercase;
+    color: white;
+    cursor: pointer;
+}
+
+#btnAdiciona{
+    background-color: green;
+}
+
+#btnCancela{
+    background-color: red;
+}
+
+ul{
+    padding: 8px 58px;
+}
+
+ul li{
+    list-style: none;
+    position: relative;
+}
+
+ul li h3{
+    font-style: normal;
+    cursor: pointer;
+}
+
+ul li h3.strike-through {
+    text-decoration: line-through;
+}
