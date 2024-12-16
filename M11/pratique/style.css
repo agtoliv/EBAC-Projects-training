@@ -1,0 +1,36 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Roboto, sans-serif;
+}
+
+.container{
+    max-width: 1024px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: aliceblue;
+}
+
+header .menu{
+    display: flex;
+}
+
+header .menu h3{
+    margin-right: 24px;
+}
+
+header {
+    padding: 16px 8px 8px;
+    margin-bottom: 56px;
+    background-color: blue;
+}
+#sobre-loja{
+    display: flex;
+}
